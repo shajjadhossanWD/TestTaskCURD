@@ -1,0 +1,39 @@
+.footer{
+    height: auto;
+    width: 100%;
+    background-color: #C9C9C9;
+}
+.footerdiv{
+   padding: 80px;
+
+}
+.footerDiv1{
+    text-align: start;
+    font-family: 'Roboto', sans-serif;
+}
+.footerdiv2{
+    border-left: 1px solid #010C23;
+}
+
+.fotter2Content{
+    margin-left: 90px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+}
+
+.fotter2Content h4{
+    font-weight: 600;
+    line-height: 35px;
+    width: 65%;
+    margin-bottom: 30px;
+}
+.fotter2Content p small{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 26px;
+    color: #1A1A1A;
+    mix-blend-mode: normal;
+    opacity: 0.7;
+}
