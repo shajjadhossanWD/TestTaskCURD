@@ -62,6 +62,8 @@ To run the React application locally, follow these steps:
 
 That's it! You now have the React application up and running on your local machine. You can explore and modify the code as needed to build your own React application.
 
+Live deploy Link: https://lovely-dasik-3993e6.netlify.app/
+
 Thanks, 
 
 MD Shajjad Hossan.
