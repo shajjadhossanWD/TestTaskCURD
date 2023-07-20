@@ -1,69 +1,26 @@
-# React App
+Agenda Manager
 
-This is a simple React application created using the Create React App tool. It serves as a template for building React-based web applications.
+Agenda Manager is a simple React application that allows users to manage their agenda items. Users can add, edit, and delete agenda items, each containing a name, email, product name, and price. The application also provides export and import functionality to save and load agenda data in JSON format.
 
-## How the React App was created?
+Features
+1.Add new agenda items with a name, email, product name, and price.
+2.Edit existing agenda items and update their details.
+3.Delete agenda items from the list.
+4.Export the agenda data as a JSON file.
+5.Import agenda data from a JSON file.
 
-The React App was created using the following steps:
+Installation
+1.Clone the repository: git clone <repository-url>
+2.Change into the project directory: cd agenda-manager
+3.Install dependencies: npm install
 
-1. Install Node.js: Make sure you have Node.js installed on your machine. You can download it from the official Node.js website (https://nodejs.org) and follow the installation instructions for your operating system.
+Usage
+1.Start the development server: npm start
+2.Open the application in your web browser: http://localhost:3000
 
-2. Install Create React App: Open a terminal or command prompt and run the following command to install Create React App globally on your machine:
-
-   ```
-   npm install -g create-react-app
-   ```
-
-3. Create a new React App: Once Create React App is installed, navigate to the directory where you want to create your new React application and run the following command:
-
-   ```
-   npx create-react-app my-react-app
-   ```
-
-   This will create a new directory called `my-react-app` (you can replace it with the desired name of your application) and set up a basic React project structure inside it.
-
-4. Navigate to the project directory: Change into the newly created project directory by running the following command:
-
-   ```
-   cd my-react-app
-   ```
-
-5. Start the development server: To start the development server and run the React application locally, use the following command:
-
-   ```
-   npm start
-   ```
-
-   This will launch the development server and open your React application in a web browser. Any changes you make to the source code will be automatically reloaded in the browser.
-
-## How to run the application?
-
-To run the React application locally, follow these steps:
-
-1. Ensure you have Node.js installed on your machine. You can download it from the official Node.js website (https://nodejs.org) if you don't have it already.
-
-2. Clone or download this repository to your local machine.
-
-3. Open a terminal or command prompt and navigate to the project directory.
-
-4. Install the project dependencies by running the following command:
-
-   ```
-   npm install
-   ```
-
-5. Start the development server by running the following command:
-
-   ```
-   npm start
-   ```
-
-6. After the development server starts, open your web browser and visit `http://localhost:3000` to see the React application running.
-
-That's it! You now have the React application up and running on your local machine. You can explore and modify the code as needed to build your own React application.
-
-Live deploy Link: https://lovely-dasik-3993e6.netlify.app/
-
-Thanks, 
-
-MD Shajjad Hossan.
+How to Use
+1.Fill in the required fields (name, email, product name, and price) and click the "Add Item" button to add a new agenda item to the list.
+2.To edit an existing agenda item, click the "Edit" button (pencil icon) next to the item you want to edit. Make the necessary changes and click the "Update Item" button to save the changes.
+3.To delete an agenda item, click the "Delete" button (trash icon) next to the item you want to remove.
+4.You can export the agenda data to a JSON file by clicking the "Export Agenda" button.
+To import agenda data from a JSON file, click the "Import Agenda" button and select the JSON file to import.
